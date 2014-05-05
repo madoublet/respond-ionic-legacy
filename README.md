@@ -15,7 +15,6 @@ In version 0.1:
 - Coverting content links into app links
 
 Setup:
-======
 - Specify the menu (e.g. primary), language, and app url in the Setup factory (www/js/factories.js)
 ```
 // setup factory (basic setup params
