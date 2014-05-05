@@ -1,0 +1,94 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #444;
+}
+
+body h1, body h2, body h3{
+	color: #555;
+	margin-bottom: 25px;
+}
+
+body p, body blockquote{
+	color: #777;
+}
+
+/* images */
+.o-image img, .l-image img, .r-img img{
+	max-width: 100%;
+}
+
+/* menu bar */
+body .bar.bar-respond{
+	background-image: none;
+	background-color: #3299bb;
+	border-bottom: 1px solid #2a89ad;
+}
+
+/* jumbotron */
+body .jumbotron{
+	background: #3299bb url('images/cubes-bg.png') repeat;
+	background-size: 67px 100px;
+	padding: 50px 15px;
+	color: #fff;
+	margin-bottom: 25px;
+	border-bottom: 2px solid #2a89ad;
+}
+
+	body .jumbotron h1{
+		color: #fff;
+		font-size: 50px;
+		text-align: center;
+	}
+	
+	body .jumbotron h3{
+		color: #fff;
+		font-size: 25px;
+		text-align: center;
+	}
+	
+	body .jumbotron p{
+		color: #fff;
+		font-size: 18px;
+		line-height: 30px;
+		text-align: center;
+	}
+	
+	body .jumbotron a{
+		color: #fff;
+	}
+
+/* global styles */
+p, blockquote{
+	font-size: 15px;
+	line-height: 22px;
+	margin: 0 0 25px 0;
+}
+
+blockquote{
+	border: none;
+	background-color: #f8f8f8;
+	padding: 25px;
+}
+
+/* menu styles */
+.menu-left{
+	background-color: #444;
+}
+
+	.menu-left .bar-header{
+		background-color: #444;
+	}
+	
+		.menu-left .bar.bar-stable .title{
+			color: #fff;
+		}
+		
+		.menu-left .item a{
+			background-color: #444;
+			color: #fff;
+			
+		}
+		
+		.menu-left .item{
+			border-color: #555;
+		}
