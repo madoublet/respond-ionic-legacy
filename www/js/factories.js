@@ -6,7 +6,7 @@ angular.module('respond.factories', [])
 	return {
 		menu: 'primary',
 		language: 'en-us',
-		appUrl: 'http://path-to-respond-site.com'  // the url of your site
+		appUrl: 'http://path-to-respond-site.com/'  // the url of your site
 	}
 	
 })
