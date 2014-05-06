@@ -92,3 +92,23 @@ blockquote{
 		.menu-left .item{
 			border-color: #555;
 		}
+		
+/* form styles */
+.respond-form .list .item{
+	border-left: 0;
+	border-right: 0;
+	margin: 0 -15px;
+	border-bottom: 0;
+}
+
+	.respond-form .list .item:last-child{
+		border-bottom: 1px solid #ddd;
+	}
+
+.respond-form .list .item input{
+	padding-left: 10px;
+}
+
+.respond-form .list .item-divider{
+	border-bottom: 0;
+}

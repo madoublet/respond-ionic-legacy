@@ -1,11 +1,23 @@
 angular.module('respond.controllers', [])
 
 // app controller, builds the menu
-.controller('AppCtrl', function($scope, Menu) {
+.controller('AppCtrl', function($scope, $state, Menu) {
 	
 	// get menu json
 	$scope.test = 'hello';
 	$scope.menu = [];
+	
+	// only show the menu for root items
+	$scope.showMenu = function(){
+	
+		if(location.href.indexOf('/nested/') == -1){
+			return true;
+		}
+		else{
+			return false;
+		}
+				
+	};
 	
 	// get the menu from the factory
 	Menu.retrieve(function(data){
@@ -25,6 +37,8 @@ angular.module('respond.controllers', [])
 
 	$scope.id = $stateParams.id;
 	$scope.html = 'Loading...';
+	
+	
 	
 	// get the page from the factory
 	Page.retrieve($scope.id, function(data){

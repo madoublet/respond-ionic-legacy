@@ -67,7 +67,7 @@ respond.Parse.HTML = function(html, url){
 			var href = 'lookup:'+href.replace(/\//g, '.');
 			
 			$(links[y]).attr('href','');
-			$(links[y]).attr('ng-href','#/app/page/'+href);
+			$(links[y]).attr('ng-href','#/app/page/nested/'+href);
 			
 		}
 		

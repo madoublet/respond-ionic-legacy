@@ -27,7 +27,7 @@ angular.module('starter', ['ionic', 'respond.controllers', 'respond.factories', 
 
 
 	.state('app.page', {
-      url: "/page/:id",
+      url: "/page/:source/:id",
       views: {
         'menuContent' :{
           templateUrl: "templates/page.html",
@@ -47,6 +47,6 @@ angular.module('starter', ['ionic', 'respond.controllers', 'respond.factories', 
     });
     
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/page/pageuniqid');
+  $urlRouterProvider.otherwise('/app/page/root/pageuniqid');
 });
 
